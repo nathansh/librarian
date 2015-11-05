@@ -119,7 +119,7 @@ A few js modules are included for the library itself. These are:
 * `moduleRenderedFocus` - Used for setting focus on a rendered module
 
 ## Sassyplate
-At Domain7, we have a [boilerplate for SCSS](http://github.com/domain7/sassyplate). To base a UI library on that boilerplate, clone that repo (`https://github.com/domain7/sassyplate.git`) into a directory named `sassyplate` in `assets/stylesheets`, then include it in `assets/stylesheets/scss/librarian.scss` like such underneath `@import 'susy';`.
+I kickstart my projects with a [boilerplate for SCSS](https://github.com/nathansh/sassyplate). To base a UI library on that boilerplate, clone that repo (`https://github.com/nathansh/sassyplate.git`) into a directory named `sassyplate` in `assets/stylesheets`, then include it in `assets/stylesheets/scss/librarian.scss` like such underneath `@import 'susy';`.
 
 	// Import Sassyplace
 	@import '../sassyplate/stylesheets/scss/screen';
